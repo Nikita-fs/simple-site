@@ -1,0 +1,38 @@
+:root {
+  --font-main: "Roboto", sans-serif;
+  --color-bg: #ffffff;
+  --color-text: #333333;
+  --color-accent: #007aff;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  background-color: var(--color-accent);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
